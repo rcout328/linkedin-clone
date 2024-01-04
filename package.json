@@ -1,6 +1,8 @@
 {
   "name": "linkedin-clone",
   "version": "0.1.0",
+  "main": "index.js",
+  "homepage": "https://rcout328.github.io/linkedin-clone",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -21,7 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,7 +47,7 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
-  "main": "index.js",
+  
   "author": "",
   "license": "ISC",
   "devDependencies": {
